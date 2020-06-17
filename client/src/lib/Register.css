@@ -1,0 +1,30 @@
+.form-container {
+	border: 1px solid black;
+}
+
+.input-name {
+	width: 180%;
+}
+
+.input-conatiner {
+	display: flex;
+	flex-direction: row;
+	width: 99%;
+  text-align: justify;
+}
+
+.email, .password {
+	width: 89%;
+}
+
+.btn-container {
+	display: flex;
+	align-self: center;
+	width: 332px;
+	justify-content: space-between;
+}
+
+button {
+	width: 100px;
+}
+

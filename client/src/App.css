@@ -1,0 +1,56 @@
+body {
+  background-color: #e2d2ca;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.App {
+  text-align: center;
+
+}
+
+.App-header {
+  background-color: #e2d2ca;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+}
+
+h1 {
+  font-family: 'Halant', serif;
+  font-size: 2.5em;
+}
+
+form {
+	display: flex;
+	flex-direction: row;
+}
+
+input, button{
+	background-color: #e2d2ca;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	height:35px;
+	width: 50%;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.input-container {
+	display:flex;
+	flex-direction: row;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

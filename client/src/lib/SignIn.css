@@ -1,0 +1,31 @@
+form {
+	display: flex;
+	flex-direction: row;
+}
+
+input, button{
+	background-color: #e2d2ca;
+	border: 1px;
+	border-style: solid;
+	border-color: black;
+	height:35px;
+	width: 50%;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+.input-container {
+	display:flex;
+	flex-direction: row;
+}
+
+.btn-container {
+	display: flex;
+	align-self: center;
+	width: 332px;
+	justify-content: space-between;
+}
+
+button {
+	width: 100px;
+}
